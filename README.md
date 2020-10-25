@@ -24,7 +24,7 @@ During the model building process, we will explore two types of sampling techniq
 
 SMOTE (Synthetic Minority Oversampling Technique) consists of synthesising elements for the minority class, based on those that already exist. It works by randomly picking a point from the minority class and computing the k-nearest neighbors for this point. The synthetic points are added between the chosen point and its neighbors. The diagram below illustrates this for clarity.
 
-<img src = 'Screen1.png' width='700' height = '200'>
+<img src = 'Screen1.png' width='700' height = '250'>
 
 # Conclusion
 
