@@ -12,6 +12,20 @@ For building the model, we have used an Artificial Neural Network. Please use th
 
 https://github.com/MohitGoel92/Will-the-customer-leave-the-bank-
 
+## Sampling
+
+During the model building process, we will explore two types of sampling techniques. They are "Undersampling" and "Oversampling". For oversampling, we will use "SMOTE" sampling or "Synthetic Minority Oversampling Technique".
+
+**Undersampling:** For example, if we had a sample of 9 people of which 3 were female and 6 were male, performing undersampling will result in us selecting the 3 females but only 3 out of the 6 males. An obvious disadvantage of this method being the loss of data.
+
+**Oversampling:** For example, if we had a sample of 9 people of which 3 were female and 6 were male, performing oversampling will result in us selecting the 6 males and double the points for females (3 original females from the sample and 3 more using SMOTE).
+
+## SMOTE Sampling
+
+SMOTE (Synthetic Minority Oversampling Technique) consists of synthesising elements for the minority class, based on those that already exist. It works by randomly picking a point from the minority class and computing the k-nearest neighbors for this point. The synthetic points are added between the chosen point and its neighbors. The diagram below illustrates this for clarity.
+
+<img src = 'Screen1.png' width='700' height = '300'>
+
 # Conclusion
 
 Our model has given us an accuracy of over 99%. With this, we have an algorithm that can help predict whether a credit card transaction is fraudulent. However, the data is highly unbalanced as only 0.2% of the dataset accounts for the positive class (fraud). Taking into consideration the recall score of 79%, this indicates that around 79% of fraudulent cases were correctly detected. The precision score of 84% indicates that 14% of the transactions that were predicted to be fraudulent were actually not fruadulent. This metric may be interpreted as the extra work load the department had to deal with or the amount of customers that were unnecessarily contacted/made to worry. Depending on the nature of the company, this metrics may influence the usability of the model. 
