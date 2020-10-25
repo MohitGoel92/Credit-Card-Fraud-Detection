@@ -26,6 +26,8 @@ SMOTE (Synthetic Minority Oversampling Technique) consists of synthesising eleme
 
 <img src = 'Screen1.png' width='700' height = '250'>
 
+Image source: https://www.kaggle.com/rafjaa/resampling-strategies-for-imbalanced-datasets
+
 # Conclusion
 
 Our model has given us an accuracy of over 99%. With this, we have an algorithm that can help predict whether a credit card transaction is fraudulent. However, the data is highly unbalanced as only 0.2% of the dataset accounts for the positive class (fraud). Taking into consideration the recall score of 79%, this indicates that around 79% of fraudulent cases were correctly detected. The precision score of 84% indicates that 14% of the transactions that were predicted to be fraudulent were actually not fruadulent. This metric may be interpreted as the extra work load the department had to deal with or the amount of customers that were unnecessarily contacted/made to worry. Depending on the nature of the company, this metrics may influence the usability of the model. 
