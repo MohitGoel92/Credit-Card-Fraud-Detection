@@ -26,7 +26,7 @@ SMOTE (Synthetic Minority Oversampling Technique) consists of synthesising eleme
 
 <img src = 'Screen1.png' width='1050' height = '375'>
 
-Image source: https://www.kaggle.com/rafjaa/resampling-strategies-for-imbalanced-datasets
+**Image source:** https://www.kaggle.com/rafjaa/resampling-strategies-for-imbalanced-datasets
 
 # Conclusion
 
